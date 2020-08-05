@@ -172,3 +172,41 @@ hr{
 .skills{
     padding-bottom: 60px;
 }
+@media(max-width: 400px){
+   body{
+       width: 600px;
+   }
+    h3{
+        width: 400px;
+    }
+    .para1{
+        width: 400px;
+    }
+}
+@media(max-width: 500px){
+    body{
+        width: 600px;
+    }
+     h3{
+         width: 400px;
+     }
+     .para1{
+         width: 400px;
+     }
+ }
+ @media(max-width: 320px){
+    body{
+        width: 600px;
+    }
+     h3{
+         width: 400px;
+     }
+     .para1{
+         width: 400px;
+     }
+     .contact-message {
+        width: 600px;
+        font-size: 30px;
+    }
+ }
+ 
