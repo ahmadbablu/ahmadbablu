@@ -182,6 +182,10 @@ hr{
     .para1{
         width: 400px;
     }
+    .contact-message {
+        width: 600px;
+        font-size: 30px;
+    }
 }
 @media(max-width: 500px){
     body{
@@ -193,6 +197,10 @@ hr{
      .para1{
          width: 400px;
      }
+      .contact-message {
+        width: 600px;
+        font-size: 30px;
+    }
  }
  @media(max-width: 320px){
     body{
@@ -209,4 +217,5 @@ hr{
         font-size: 30px;
     }
  }
+ 
  
