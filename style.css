@@ -35,6 +35,10 @@ a{
     
     
 }
+#borderline1{
+    position: relative;
+    left: 300px;
+}
 
 .middle-container{
             padding-top: 100px;
@@ -175,8 +179,93 @@ hr{
 @media(max-width: 400px){
    body{
        width: 600px;
-       
+      
    }
+   hr {
+    border: none;
+    border-top: 11px dotted black;
+    width: 17%;
+    position: relative;
+    left: 80px;
+}
+    #borderline1{
+        position: relative;
+    top: 132px;
+    left: 100px;
+    }
+
+   p{
+    
+        width: 633px;
+        font-size: 36px;
+        position: relative;
+        left: -27px;
+    
+   }
+   h2 {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+    font-size: 3rem;
+    color: #66bfbf;
+    font-weight: normal;
+    line-height: 3;
+}
+#myskills {
+    position: relative;
+    left: 91px;
+    top: 170px;
+}
+#frontend{
+        
+    font-size: 37px;
+    position: relative;
+    left: 200px;
+    bottom: 321px;
+
+}
+.logo {
+    width: 50%;
+}
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    bottom: 30px;
+    font-size: 30px;
+    left: 107px;
+}
+   .profile{
+    
+        position: relative;
+        left: 96px;
+    
+   }
+   .bottom-container {
+    position: relative;
+    top: 50px;
+    line-height: 2;
+    background-color: #66bfbf;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    width: 130%;
+    }
+   
+    .dd {
+        position: relative;
+        bottom: 212px;
+        right: 11px;
+        font-size: 37px;
+        font-weight: 900;
+        padding: 89px;
+    }
+    #des {
+        width: 633px;
+        font-size: 36px;
+        padding: 30px;
+        position: relative;
+        left: -33px;
+        line-height: 1.7;
+    }
     .top-h2{
         font-size: 35px;
     line-height: 1;
@@ -184,12 +273,19 @@ hr{
     h3{
         width: 400px;
     }
-    .para1{
-        width: 400px;
+    .para1 {
+        width: 600px;
+        font-size: 36px;
+        position: relative;
+        left: 7px;
+    }
+    .contact-me{
+        position: relative;
+        left: 87px;
     }
     .contact-message {
         width: 600px;
-        font-size: 30px;
+        font-size: 38px;
     }
     .bottom-cloud{
         position: absolute;
@@ -201,6 +297,32 @@ hr{
         right: 56px;
         top: 406px;
     }
+    .computer {
+        top: 315px;
+        position: relative;
+        width: 63%;
+        float: left;
+        margin: 128px;
+        /* bottom: -176px; */
+        right: -19px;
+    }
+    .frontend {
+        width: 61%;
+        float: right;
+        position: relative;
+        margin: 92px;
+        top: 130px;
+        left: 100px;
+    }
+    a.btn{
+        font-size: 27px;
+    }
+    #copyright {
+        color: white;
+        font-size: 20px;
+        position: relative;
+        left: 79px;
+    }
     
 }
 @media(max-width: 500px){
@@ -208,10 +330,111 @@ hr{
         width: 600px;
         
     }
+    #borderline1{
+        position: relative;
+    top: 132px;
+    left: 100px;
+    }
+    hr {
+        border: none;
+        border-top: 11px dotted black;
+        width: 17%;
+        position: relative;
+        left: 80px;
+    }
+    h2 {
+        margin: 0;
+        font-family: 'Dosis', sans-serif;
+        font-size: 3rem;
+        color: #66bfbf;
+        font-weight: normal;
+        line-height: 3;
+    }
+    #frontend{
+        
+        font-size: 37px;
+        position: relative;
+        left: 200px;
+        bottom: 321px;
+    
+    }
+    #myskills {
+        position: relative;
+        left: 91px;
+        top: 170px;
+    }
+    
+    p{
+        
+            width: 633px;
+            font-size: 36px;
+            position: relative;
+            left: -27px;
+        
+    }
+    .logo {
+        width: 50%;
+    }
+    .top-container {
+        position: relative;
+        padding-top: 100px;
+        bottom: 30px;
+        font-size: 30px;
+        left: 107px;
+    }
+    .profile{
+    
+        position: relative;
+        left: 96px;
+    
+   }
+    .bottom-container {
+        position: relative;
+        top: 50px;
+        line-height: 2;
+        background-color: #66bfbf;
+        font-size: 30px;
+        font-family: 'Dosis', sans-serif;
+        text-align: center;
+        width: 130%;
+    }
+    .dd {
+        position: relative;
+        bottom: 212px;
+        right: 11px;
+        font-size: 37px;
+        font-weight: 900;
+        padding: 89px;
+    }
+        #des {
+            width: 633px;
+            font-size: 36px;
+            padding: 30px;
+            position: relative;
+            left: -33px;
+            line-height: 1.7;
+        }
     .bottom-cloud{
         position: absolute;
     left: 69px;
     top: 270px;
+    }
+    .computer {
+        top: 315px;
+        position: relative;
+        width: 63%;
+        float: left;
+        margin: 128px;
+        /* bottom: -176px; */
+        right: -19px;
+    }
+    .frontend {
+        width: 61%;
+        float: right;
+        position: relative;
+        margin: 92px;
+        top: 130px;
+        left: 100px;
     }
     .top-cloud {
         position: absolute;
@@ -226,19 +449,128 @@ hr{
     h3{
          width: 400px;
      }
-     .para1{
-         width: 400px;
-     }
-      .contact-message {
+     .para1 {
         width: 600px;
-        font-size: 30px;
+        font-size: 36px;
+        position: relative;
+        left: 7px;
+    }
+     .contact-me{
+        position: relative;
+        left: 87px;
+    }
+     .contact-message {
+        width: 600px;
+        font-size: 38px;
+    }
+    a.btn{
+        font-size: 27px;
+    }
+    #copyright {
+        color: white;
+        font-size: 20px;
+        position: relative;
+        left: 79px;
     }
  }
  @media(max-width: 320px){
     body{
         width: 600px;
-      
+        
     }
+    #borderline1{
+        position: relative;
+    top: 132px;
+    left: 100px;
+    }
+    hr {
+        border: none;
+        border-top: 11px dotted black;
+        width: 17%;
+        position: relative;
+        left: 80px;
+    }
+    h2 {
+        margin: 0;
+        font-family: 'Dosis', sans-serif;
+        font-size: 3rem;
+        color: #66bfbf;
+        font-weight: normal;
+        line-height: 3;
+    }
+    #frontend{
+        
+        font-size: 37px;
+        position: relative;
+        left: 200px;
+        bottom: 321px;
+    
+    }
+    #myskills {
+        position: relative;
+        left: 91px;
+        top: 170px;
+    }
+    
+        .logo {
+            width: 50%;
+        }
+    .top-container {
+        position: relative;
+        padding-top: 100px;
+        bottom: 30px;
+        font-size: 30px;
+        left: 107px;
+    }
+    .profile{
+    
+        position: relative;
+        left: 96px;
+    
+   }
+    .bottom-container {
+        position: relative;
+        top: 50px;
+        line-height: 2;
+        background-color: #66bfbf;
+        font-size: 30px;
+        font-family: 'Dosis', sans-serif;
+        text-align: center;
+        width: 130%;
+    }
+    .dd {
+        position: relative;
+        bottom: 212px;
+        right: 11px;
+        font-size: 37px;
+        font-weight: 900;
+        padding: 89px;
+    }
+        #des {
+            width: 633px;
+            font-size: 36px;
+            padding: 30px;
+            position: relative;
+            left: -33px;
+            line-height: 1.7;
+        }
+        .computer {
+            top: 315px;
+            position: relative;
+            width: 63%;
+            float: left;
+            margin: 128px;
+            /* bottom: -176px; */
+            right: -19px;
+        }
+        .frontend {
+            width: 61%;
+            float: right;
+            position: relative;
+            margin: 92px;
+            top: 130px;
+            left: 100px;
+        }
     .top-h2{
         font-size: 35px;
     line-height: 1;
@@ -246,12 +578,17 @@ hr{
      h3{
          width: 400px;
      }
-     .para1{
-         width: 400px;
-     }
+     .para1 {
+        width: 600px;
+        font-size: 36px;
+    }
+     .contact-me{
+        position: relative;
+        left: 87px;
+    }
      .contact-message {
         width: 600px;
-        font-size: 30px;
+        font-size: 38px;
     }
     .bottom-cloud{
         position: absolute;
@@ -262,6 +599,15 @@ hr{
         position: absolute;
         right: 56px;
         top: 406px;
+    }
+    a.btn{
+        font-size: 27px;
+    }
+    #copyright {
+        color: white;
+        font-size: 20px;
+        position: relative;
+        left: 79px;
     }
  }
  
